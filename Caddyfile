@@ -1,0 +1,4 @@
+localhost {
+	proxy /api localhost:5000
+	root static/
+}
