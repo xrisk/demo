@@ -1,4 +1,4 @@
-localhost {
+localhost:2015 {
 	proxy /api localhost:5000
 	root static/
 }
